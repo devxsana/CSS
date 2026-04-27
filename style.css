@@ -1,0 +1,171 @@
+ main {
+      
+      
+      background-color: bisque;
+      border-color: rgb(29, 226, 45);
+      border-width: 5px;
+      border-style: dashed;
+      margin: 0px 50px;
+      border-radius: 200px;
+      padding: 20px;
+      text-align: center;
+     }
+     header {
+        text-align: center;
+      background-color: rgba(25, 224, 220, 1);
+      border-width: 5px;
+      border-color: rgb(29, 187, 22);
+      border-style: dashed;
+      border-radius: 200px;
+      margin: 20px 20px;
+      
+     }
+   #outer{
+     height: 200px;
+     width: 70px;
+     border: 2px solid black;
+     background-color: aquamarine;
+   }
+  .iner{ 
+     height: 50px;
+     width: 50px;
+     border: 2px solid black;
+     margin: 0 auto;
+     border-radius: 100px;
+     
+  }   
+    #red{
+      background-color: red;
+    } 
+   #yellow{
+      background-color: yellow;
+    } 
+    #green{
+      background-color: green;
+    }   
+    #button{
+      /* height: 25px; */
+     /* width: 50px; */
+     margin: 0 auto;
+     margin-top: 10px;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+     
+    }
+    button{
+      background-color: chartreuse;
+      /* border-radius: 50px; */
+      height: 50px; 
+     width: 50px;
+     transition-duration: 2s;
+     margin: 0 auto;
+     margin-top: 10px;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    button:hover{
+      background-color: white;
+      border-radius: 50px;
+    }
+    
+ h2{
+    color: rgb(26, 235, 106);
+   
+ }
+ h4{
+  text-align: right;
+  color: blueviolet;
+ }
+span{
+    color: rgb(255, 0, 0);
+}
+#pets{
+    display: flex;
+    margin: 40px 50px;
+   
+    
+}
+.card:hover{
+   transform: translate(8px);
+   transition: 1s;
+}
+.card{
+    height: 320px;
+    width: 275px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin:  50px ;
+    padding: 10px;
+    box-shadow: 4px 5px 8px black;
+    
+}
+img{
+  border-radius: 20px;
+ justify-content: space-evenly;
+}
+@media (max-width: 375px) {
+  #pets{
+    flex-wrap: wrap;
+  }
+}
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(45, 226, 54);
+  border: 2px solid black;
+}
+.one{
+  background-color: blueviolet;
+}
+.two{
+  background-color: rgb(233, 181, 11);
+  bottom: 50px;
+  position: relative;
+}
+.three{
+  background-color: rgb(19, 168, 226);
+}
+.container{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(146, 127, 255);
+display: grid;
+grid-template-columns: ;
+}
+.item{
+height: 50px;
+width: 75px;
+background-color: rgb(112, 229, 233);
+border: 2px solid black;
+text-align: center;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+
+    /* animation-name: fontAnimation;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; */
+
+   animation: fontAnimation 4s ease-in 0s infinite alternate;
+}
+@keyframes fontAnimation{
+    0%{
+        font-size:20px;
+        background-color: aquamarine;
+        width:40px;
+    }
+    50%{
+        font-size: 40px;
+         background-color: yellow;
+          width: 200px;
+          border-radius: 10px;
+    }
+    100%{
+        font-size: 70px;
+         background-color: blue;
+          width: 400px;
+          border-radius: 20px;
+    }

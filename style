@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>practice qs</title>
+     <link rel="stylesheet" href="style.css">
+   </head>
+     <body>
+       <header>
+   <h1> Download Starter HTML
+    </h1> 
+       <h3> Compulsory & Important </h3>
+    
+     
+     </header>
+     <main>
+     <div>
+           Please use this Github link to download the starting HTML file(s) that you will need to 
+           write code in this section.
+     </div>
+     <div> 
+          Please download files before watching the lecture.
+     </div> 
+</main>
+<div id="outer">
+   <div class="iner" id="red"></div>
+    <div class="iner" id="yellow"></div>
+     <div class="iner" id="green"></div>
+</div>
+<hr>
+
+<div id="button">
+  <button> cilk me </button>
+</div>
+<hr>
+<h1> Grid container </h1>
+   <div class="container">
+   <div class="item"> 1 </div>  
+   <div class="item"> 2 </div>
+    <div class="item"> 3 </div>
+     <div class="item"> 4 </div>
+      <div class="item"> 5 </div>
+       <div class="item"> 6 </div>
+   </div>
+
+   <hr>
+   <h2><i>adoptme.com</i></h2>
+   <h1>Adopt a <span> Pet</span> Today </h1>
+   <br>
+   <div id="pets">
+       <div class="card">
+       <img src="dog.jpeg" alt="jerry">
+       <h3> Meet Jerry </h3>
+       <p>
+         jerry is charming and friendly dog <br> with a heart of gold and 
+         looking for <br> a loving home to call his own.
+       </p>
+       </div>
+    <div class="card">
+       <img src="cat.jpeg" alt="Tom">
+       <h3> Meet Tom </h3>
+       <p>
+         Tom is charming and friendly cat <br> with a heart of gold and 
+         looking for <br> a loving home to call his own.
+       </p>
+   </div>
+   </div>
+   <h4> a gift is anew life </h4>
+   <hr>
+   <h1>Z-Index</h1>
+   <div class="box one">1</div>
+   <div class="box two">2</div>
+   <div class="box three">3</div>
+   <div class="box four">4</div>
+    </body>
+ </html>
